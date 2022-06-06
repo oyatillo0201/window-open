@@ -44,3 +44,83 @@ img {
 .main-content {
   flex-grow: 1;
 }
+
+/* .wall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+.rom {
+  display: flex;
+  border: 20px ridge rgb(165, 91, 42);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.8);
+}
+
+.tabaqa {
+  width: 200px;
+  height: 400px;
+  border: 20px ridge rgb(165, 91, 42);
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: transform 0.5s ease;
+}
+
+.tabaqa-left {
+  transform-origin: left center;
+}
+
+.tabaqa-right {
+  transform-origin: right center;
+}
+
+.rom:hover .tabaqa-left {
+  transform: perspective(2000px) rotateY(-125deg);
+}
+
+.rom:hover .tabaqa-right {
+  transform: perspective(2000px) rotateY(125deg);
+} */
+
+
+
+.wall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.rom {
+  display: flex;
+  border: 20px ridge brown;
+  background-image: url(../img/house.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.8);
+}
+
+.tabaqa {
+  width: 200px;
+  height: 400px;
+  border: 20px ridge brown;
+  background-color: #000;
+  transition: transform 0.5s ease;
+}
+
+.tabaqa-left {
+  transform-origin: left center;
+}
+
+.tabaqa-right {
+  transform-origin: right center;
+}
+
+.rom:hover .tabaqa-left {
+  transform: perspective(2000px) rotateY(-125deg);
+}
+
+.rom:hover .tabaqa-right {
+  transform: perspective(2000px) rotateY(125deg);
+}
